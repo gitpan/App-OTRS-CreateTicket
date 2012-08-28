@@ -22,13 +22,13 @@ my %WriteMakefileArgs = (
   "LICENSE" => "open_source",
   "NAME" => "App::OTRS::CreateTicket",
   "PREREQ_PM" => {
-    "GetOpt::Long" => 0,
+    "Getopt::Long" => 0,
     "Pod::Usage" => 0,
     "SOAP::Lite" => 0
   },
-  "VERSION" => "1.0.2",
+  "VERSION" => "1.0.3",
   "test" => {
-    "TESTS" => ""
+    "TESTS" => "t/*.t"
   }
 );
 

@@ -8,3 +8,4 @@ README
 bin/otrs.CreateTicket.pl
 dist.ini
 lib/App/OTRS/CreateTicket.pm
+t/00-compile.t

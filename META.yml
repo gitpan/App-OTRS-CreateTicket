@@ -13,11 +13,11 @@ meta-spec:
   version: 1.4
 name: App-OTRS-CreateTicket
 requires:
-  GetOpt::Long: 0
+  Getopt::Long: 0
   Pod::Usage: 0
   SOAP::Lite: 0
 resources:
   bugtracker: https://github.com/mwb/App-OTRS-CreateTicket/issues
   homepage: https://github.com/mwb/App-OTRS-CreateTicket
   repository: https://github.com/mwb/App-OTRS-CreateTicket.git
-version: 1.0.2
+version: 1.0.3

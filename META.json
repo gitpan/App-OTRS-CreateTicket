@@ -21,7 +21,7 @@
       },
       "runtime" : {
          "requires" : {
-            "GetOpt::Long" : "0",
+            "Getopt::Long" : "0",
             "Pod::Usage" : "0",
             "SOAP::Lite" : "0"
          }
@@ -39,6 +39,6 @@
          "web" : "https://github.com/mwb/App-OTRS-CreateTicket"
       }
    },
-   "version" : "1.0.2"
+   "version" : "1.0.3"
 }
 
