@@ -1,0 +1,44 @@
+{
+   "abstract" : "Create tickets in OTRS via the Command Line Interface.",
+   "author" : [
+      "Michiel Beijen <michiel.beijen@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "agpl_3"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-OTRS-CreateTicket",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "GetOpt::Long" : "0",
+            "Pod::Usage" : "0",
+            "SOAP::Lite" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mwb/App-OTRS-CreateTicket/issues"
+      },
+      "homepage" : "https://github.com/mwb/App-OTRS-CreateTicket",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/mwb/App-OTRS-CreateTicket.git",
+         "web" : "https://github.com/mwb/App-OTRS-CreateTicket"
+      }
+   },
+   "version" : "1.0.1"
+}
+
