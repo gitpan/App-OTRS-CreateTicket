@@ -20,4 +20,4 @@ resources:
   bugtracker: https://github.com/mwb/App-OTRS-CreateTicket/issues
   homepage: https://github.com/mwb/App-OTRS-CreateTicket
   repository: https://github.com/mwb/App-OTRS-CreateTicket.git
-version: 1.0.4
+version: 1.0.5
