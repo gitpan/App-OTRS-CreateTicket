@@ -17,6 +17,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-OTRS-CreateTicket",
   "EXE_FILES" => [
+    "bin/bla.txt",
     "bin/otrs.CreateTicket.pl"
   ],
   "LICENSE" => "open_source",
@@ -26,7 +27,7 @@ my %WriteMakefileArgs = (
     "Pod::Usage" => 0,
     "SOAP::Lite" => 0
   },
-  "VERSION" => "1.0.5",
+  "VERSION" => "1.0.6",
   "test" => {
     "TESTS" => "t/*.t"
   }

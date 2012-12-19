@@ -4,7 +4,7 @@
       "Michiel Beijen <michiel.beijen@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "agpl_3"
    ],
@@ -39,6 +39,6 @@
          "web" : "https://github.com/mwb/App-OTRS-CreateTicket"
       }
    },
-   "version" : "1.0.5"
+   "version" : "1.0.6"
 }
 
