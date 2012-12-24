@@ -5,7 +5,6 @@ META.json
 META.yml
 Makefile.PL
 README
-bin/bla.txt
 bin/otrs.CreateTicket.pl
 dist.ini
 lib/App/OTRS/CreateTicket.pm

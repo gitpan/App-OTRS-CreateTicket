@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.008007;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -17,7 +17,6 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-OTRS-CreateTicket",
   "EXE_FILES" => [
-    "bin/bla.txt",
     "bin/otrs.CreateTicket.pl"
   ],
   "LICENSE" => "open_source",
@@ -27,7 +26,7 @@ my %WriteMakefileArgs = (
     "Pod::Usage" => 0,
     "SOAP::Lite" => 0
   },
-  "VERSION" => "1.0.6",
+  "VERSION" => "1.0.7",
   "test" => {
     "TESTS" => "t/*.t"
   }

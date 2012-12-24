@@ -16,8 +16,9 @@ requires:
   Getopt::Long: 0
   Pod::Usage: 0
   SOAP::Lite: 0
+  perl: 5.008007
 resources:
   bugtracker: https://github.com/mwb/App-OTRS-CreateTicket/issues
   homepage: https://github.com/mwb/App-OTRS-CreateTicket
   repository: https://github.com/mwb/App-OTRS-CreateTicket.git
-version: 1.0.6
+version: 1.0.7
