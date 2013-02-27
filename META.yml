@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,7 +18,7 @@ requires:
   SOAP::Lite: 0
   perl: 5.008007
 resources:
-  bugtracker: https://github.com/mwb/App-OTRS-CreateTicket/issues
-  homepage: https://github.com/mwb/App-OTRS-CreateTicket
-  repository: https://github.com/mwb/App-OTRS-CreateTicket.git
-version: 1.0.7
+  bugtracker: https://github.com/mbeijen/App-OTRS-CreateTicket/issues
+  homepage: https://github.com/mbeijen/App-OTRS-CreateTicket
+  repository: https://github.com/mbeijen/App-OTRS-CreateTicket.git
+version: 1.10

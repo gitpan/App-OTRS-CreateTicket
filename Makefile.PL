@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     "Pod::Usage" => 0,
     "SOAP::Lite" => 0
   },
-  "VERSION" => "1.0.7",
+  "VERSION" => "1.10",
   "test" => {
     "TESTS" => "t/*.t"
   }

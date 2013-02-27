@@ -4,7 +4,7 @@
       "Michiel Beijen <michiel.beijen@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "agpl_3"
    ],
@@ -31,15 +31,15 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/mwb/App-OTRS-CreateTicket/issues"
+         "web" : "https://github.com/mbeijen/App-OTRS-CreateTicket/issues"
       },
-      "homepage" : "https://github.com/mwb/App-OTRS-CreateTicket",
+      "homepage" : "https://github.com/mbeijen/App-OTRS-CreateTicket",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/mwb/App-OTRS-CreateTicket.git",
-         "web" : "https://github.com/mwb/App-OTRS-CreateTicket"
+         "url" : "https://github.com/mbeijen/App-OTRS-CreateTicket.git",
+         "web" : "https://github.com/mbeijen/App-OTRS-CreateTicket"
       }
    },
-   "version" : "1.0.7"
+   "version" : "1.10"
 }
 
