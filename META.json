@@ -21,6 +21,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Encode" : "0",
+            "Encode::Locale" : "0",
             "Getopt::Long" : "0",
             "Pod::Usage" : "0",
             "SOAP::Lite" : "0",
@@ -40,6 +42,6 @@
          "web" : "https://github.com/mbeijen/App-OTRS-CreateTicket"
       }
    },
-   "version" : "1.10"
+   "version" : "1.11"
 }
 

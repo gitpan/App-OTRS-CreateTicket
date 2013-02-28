@@ -13,6 +13,8 @@ meta-spec:
   version: 1.4
 name: App-OTRS-CreateTicket
 requires:
+  Encode: 0
+  Encode::Locale: 0
   Getopt::Long: 0
   Pod::Usage: 0
   SOAP::Lite: 0
@@ -21,4 +23,4 @@ resources:
   bugtracker: https://github.com/mbeijen/App-OTRS-CreateTicket/issues
   homepage: https://github.com/mbeijen/App-OTRS-CreateTicket
   repository: https://github.com/mbeijen/App-OTRS-CreateTicket.git
-version: 1.10
+version: 1.11
