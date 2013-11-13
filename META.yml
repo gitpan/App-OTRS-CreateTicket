@@ -3,13 +3,14 @@ abstract: 'Create tickets in OTRS via the Command Line Interface.'
 author:
   - 'Michiel Beijen <michiel.beijen@gmail.com>'
 build_requires:
+  File::Spec: 0
   IO::Handle: 0
   IPC::Open3: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.132830'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,4 +26,4 @@ resources:
   bugtracker: https://github.com/mbeijen/App-OTRS-CreateTicket/issues
   homepage: https://github.com/mbeijen/App-OTRS-CreateTicket
   repository: https://github.com/mbeijen/App-OTRS-CreateTicket.git
-version: 1.12
+version: 1.13
