@@ -25,7 +25,8 @@ my %WriteMakefileArgs = (
     "Encode" => 0,
     "Getopt::Long" => 0,
     "Pod::Usage" => 0,
-    "SOAP::Lite" => 0
+    "SOAP::Lite" => 0,
+    "Time::Piece" => 0
   },
   "TEST_REQUIRES" => {
     "File::Spec" => 0,
@@ -33,7 +34,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.13",
+  "VERSION" => "1.14",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -48,7 +49,8 @@ my %FallbackPrereqs = (
   "IPC::Open3" => 0,
   "Pod::Usage" => 0,
   "SOAP::Lite" => 0,
-  "Test::More" => 0
+  "Test::More" => 0,
+  "Time::Piece" => 0
 );
 
 
